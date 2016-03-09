@@ -109,3 +109,4 @@ describe("TrafficLight", function(){
     });
 
 });
+keyCodeName

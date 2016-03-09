@@ -5,7 +5,7 @@ var randomNumber = function(range){
 var moneyIndex = {
     0 : 5,
     1 : 10,
-    2 : 20
+    2 : 20,
   };
 
 var passengerList = function(maxPassengers){
@@ -45,3 +45,104 @@ var moveTaxi = function(from, to) {
     taxi.classList.remove(from);
     taxi.classList.add(to);
 };
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// var keyName = (e.keyCode);
+// if (keyName === "right") {
+//   if (taxiLocationCounter < 10) {
+//     displayMessage("Forward counter " + taxiLocationCounter);
+//     taxiLocationCounter++;
+//   }
+
+//   if (taxiLocationCounter < 10)
+//   displayMessage("Forward counter " + taxiLocationCounter);
+// taxiLocationCounter++;
+//}
+
+// } else if (keyName === "left") {
+//   if (taxiLocationCounter > 0) {
+// displayMessage("Reverse counter " + taxiLocationCounter);
+//     taxiLocationCounter--;  //e.keyCode - will capture the key codes
+
+// var keyName = (e.keyCode);
+// if (keyName === "right") {
+//   if (taxiLocationCounter < 10) {
+//     displayMessage("Forward counter " + taxiLocationCounter);
+//     taxiLocationCounter++;
+//   }
+//
+// } else if (keyName === "left") {
+//   if (taxiLocationCounter > 0) {
+// displayMessage("Reverse counter " + taxiLocationCounter);
+//     taxiLocationCounter--;
+//   }
+// }
+//};
+//   }
+// }
+// moveFoward();
+// };
+
+//function moveFoward() {
+//var currentLocation = createLocationClass(taxiLocationCounter);
+//taxiLocationCounter++;
+//var newLocation = createLocationClass(taxiLocationCounter);
+//moveTaxi(currentLocation, newLocation);
+//}
+
+//function moveBackward() {
+//  var currentLocation = createLocationClass(taxiLocationCounter);
+//taxiLocationCounter--;
+//var newLocation = createLocationClass(taxiLocationCounter);
+//moveTaxi(currentLocation, newLocation);
+//}
